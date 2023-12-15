@@ -7,8 +7,10 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/coordinatorLayout"
+        android:background="@color/fuchsia"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
         <TextView
             android:id="@+id/textViewNomeConta"
@@ -17,6 +19,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="25dp"
             android:text="@{conta.nome}"
+            android:textColor="@color/blue"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="76dp"
+            android:textColor="@color/blue"
             android:text="@{conta.saldoStr}"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintStart_toStartOf="parent"
